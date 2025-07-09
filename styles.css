@@ -1,6 +1,11 @@
-head
+header
 {
-    height:30%
+     /*background-color: #f04907;*/
+    height:30%;
+    background-image: url(images/bg-pattern-intro-desktop.svg);
+    h1{
+        text-align:left;
+    }
 }
 
 
@@ -26,11 +31,11 @@ head
   text-decoration: none;
   transition: background 0.3s;
 }
-/*
+
 .navbar a:hover {
   background-color: #3a3735;
 }
-*/
+
 body
 {
     height:70%
