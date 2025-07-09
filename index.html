@@ -4,54 +4,69 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel ="stylesheet" href="styles.css"/>
+      <title>[Blogr]</title>
+    </head>
+
+    <body>
 
       <header class="site-header">
-       <img src="images/logo.svg" alt="Company Logo" class="logo">
-      </header>
-      
+             
+      <nav clas="navbar">
 
+        <img src="images/logo.svg" alt="Company Logo" class="logo">
 
-      <title>[Blogr]</title>
-      <nav>
-          <ul class="navbar">
+          <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
-
-            <button class="login-btn">LogIn</button>
-
-              <button class="sign-up-btn">Sign-up</button>
           </ul>
+
+            <div class="auth-buttons">
+              <button class="login-btn">LogIn</button>
+              <button class="sign-up-btn">Sign-up</button>
+            </div> 
       </nav>
         
-     </head>
-     <header> 
+          <div class="intro-container">
               <h1>A modern Publishing Platform</h1>
               <p>some of the content goes here</p>
 
-              <a href="#more-info" class="Start-btn">Start For Free</a>
-
-              <a href="#more-info" class="learn-more-btn">Learn More</a>
-
-    </header> 
+              <div class="intro-buttons">
+                <a href="#more-info" class="Start-btn">Start For Free</a>
+                <a href="#more-info" class="learn-more-btn">Learn More</a>
+              </div>
+          </div>
+      </header> 
     
-    <body>
+    
           <section class="chart">
+            <div class="chart-text">
             <h2>chat section</h2>
             <p>We’re glad you’re here!</p>
+            </div>
+            <div class="image-chart">
             <img src="images/illustration-editor-desktop.svg"/>
+            </div>
           </section>
+
+
           <section class="smartphone">
+            <div class="smartphone-text">
             <h2>State of The Art Infrastructure</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a tristique dolor. 
                 Phasellus varius, tortor ac accumsan mattis, justo orci bibendum justo, vel tristique arcu diam nec diam. Quisque iaculis lorem eu purus malesuada pulvinar. 
                 Sed ultricies et felis non egestas. Etiam convallis eros et odio congue, ut posuere augue pellentesque. Aenean mollis magna lacus, vitae volutpat purus congue vel. 
                 Donec in urna convallis, viverra ex a, sodales lorem. Curabitur dictum urna ac ligula fringilla efficitur. Aliquam sit amet dignissim ex. Phasellus dapibus cursus accumsan. 
                 Mauris lacinia hendrerit ligula. Donec rhoncus convallis imperdiet.</p>
+            </div>
+             <div class="image-smartphone">
             <img src="images/illustration-phones.svg"/>
+            </div>
           </section>
+
           <section class="laptop">
+            <div class="laptop-text">
             <h2>Free, Open, and Simple</h2>
             <p>Donec sagittis dolor eget varius congue. Donec tempor aliquam urna quis commodo. Integer vitae risus neque. 
               Nunc accumsan, urna fermentum pretium laoreet, neque mauris consequat metus, eget facilisis urna quam sit amet leo. 
@@ -64,19 +79,44 @@
               Nunc ultrices nunc at odio hendrerit dictum. Morbi facilisis metus justo, ut tempor mauris hendrerit eget. 
               Vestibulum metus felis, rutrum eget nulla sit amet, rutrum cursus ipsum. Nam mauris urna, pulvinar quis odio in, volutpat tincidunt ex. 
               Integer vitae leo et eros feugiat convallis mollis sed elit.</p>
+            </div>
+             <div class="image-laptop">
             <img src="images/illustration-laptop-desktop.svg"/>
+            </div>
           </section> 
     </body>
 
-      <footer class="site-footer">
+    <footer class="site-footer">
           <img src="images/logo.svg" alt="Company Logo" class="logo">
-          <ul class="navbar1">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-      </footer>
+          <div class="footer-grid">
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Integrations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
 </html>
 
 

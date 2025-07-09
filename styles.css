@@ -1,5 +1,14 @@
         
-
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
         header
         {
                 padding: 50px;
@@ -125,87 +134,68 @@ body
 }
 
 
-.chart {
-  background-color: #f0f8ff;
-  padding: 40px;
-  text-align: center;
+/* my sections for body*/
+
+section {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  display: flex; 
-  justify-content: flex-end;
-  gap: 20px;
-  border-radius: 10px;
-  height: 25%;
-  width: 100%;
-}
-.chart img {
-  margin-left: auto;
-  
+  padding: 60px 40px;
+  flex-wrap: wrap;
 }
 
-.smartphone {
-  background-color: #01091a;
-  background-image: url(images/bg-pattern-circles.svg);
-  background-repeat: no-repeat;
-  padding: 40px;
-  text-align: center;
-  justify-content: flex-end;
-  border-radius: 10px;
-  height: 25%;
-  width: 100%;
-
-}
-.smartphone h2 {
-   color: #f0f8ff;
-}
-.smartphone p {
-  color:#f0f8ff;
-}
-.smartphone img {
-  margin-right: auto;
-  display: flex;
-}
-
+.chart,
 .laptop {
-  background-color: #f0f8ff;
-  padding: 40px;
-  text-align: center;
-  justify-content: flex-end;
-  border-radius: 10px;
-  height: 25%;
+  background: #f9f9f9;
+}
+.smartphone {
+  background: #2c2c54;
+  background-image: url(images/bg-pattern-circles.svg);
+  background-image: no-repeat;
+
+}
+.chart-text,
+.smartphone-text,
+.laptop-text {
+  flex: 1 1 45%;
+  padding: 20px;
+}
+.image-chart,
+.image-smartphone,
+.image-laptop {
+  flex: 1 1 45%;
+  padding: 20px;
+}
+.image-chart img,
+.image-smartphone img,
+.image-laptop img {
   width: 100%;
-}
-.laptop img {
-  margin-right: auto;
-  display: flex;
+  max-width: 400px;
 }
 
-footer
-{
-    height: 20%
-}
-.navbar1 {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  background-color: #03032c;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.navbar1 li {
-  margin: 0;
-}
-
-.navbar1 a {
-  display: block;
-  padding: 14px 20px;
+.footer {
+  background: #2c2c54;
   color: white;
-  text-decoration: none;
-  transition: background 0.3s;
+  padding: 60px 20px;
+  border-top-right-radius: 80px;
 }
-
-.navbar1 a:hover {
-  background-color: #3a3735;
+.footer-logo {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+.footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.footer-grid div h4 {
+  margin-bottom: 15px;
+}
+.footer-grid ul li {
+  margin-bottom: 10px;
+}
+.footer-grid ul li a {
+  color: #ccc;
+  font-size: 0.95em;
 }
 
