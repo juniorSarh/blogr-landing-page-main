@@ -38,10 +38,10 @@ body {
   display: flex;
   gap: 10px;
 }
-.login {
+.login-btn {
   color: white;
 }
-.signup {
+.sign-up-btn {
   background: white;
   color: #ff5e62;
   padding: 5px 15px;
@@ -54,6 +54,28 @@ a {
 }
 ul {
   list-style: none;
+}
+
+.intro-content h1 {
+  font-size: 2.5em;
+  margin: 20px 0 10px;
+}
+.intro-content p {
+  margin-bottom: 20px;
+}
+.intro-buttons .btn {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.Start-btn {
+  background: white;
+  color: #ff5e62;
+}
+.learn-more-btn {
+  border: 1px solid white;
+  color: white;
 }
 
 
@@ -96,7 +118,7 @@ section {
   max-width: 400px;
 }
 
-.footer {
+.site-footer {
   background: #2c2c54;
   color: white;
   padding: 60px 20px;
@@ -120,5 +142,17 @@ section {
 .footer-grid ul li a {
   color: #ccc;
   font-size: 0.95em;
+}
+
+/* media quiries */
+
+@media (max-width: 768px) {
+  .nav-links, .auth-buttons {
+    display: none;
+  }
+  section {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
